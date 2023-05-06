@@ -1,0 +1,18 @@
+<div>
+  <h1>Perfil de usuario</h1>
+  <div>
+    <p>Nombre : {{this.first_name}} {{this.last_name}}</p>
+    <p>Edad : {{this.age}}</p>
+    <p>Correo : {{this.email}}</p>
+    <p>Role : {{this.role}}
+    </p>
+    <p>CartId : {{this.cartId}}</p>
+  </div>
+  <div>
+    <form action="/api/session/logout" method="get">
+      <br />
+      <button type="submit">logout</button>
+    </form>
+  </div>
+
+</div>
